@@ -1,5 +1,5 @@
 * {
-    /* outline: red solid */
+  /* outline: black solid */
 }
 
 html {
@@ -10,17 +10,43 @@ body {
   margin-left: 150px;
 }
 
+h1 {
+  color: #fb4c47;
+}
+
 .div-header {
   display: flex;
   flex-direction: column;
   align-items: left;
   width: 42%;
-  
 }
 
 .paragrafo-top {
   line-height: 2;
   letter-spacing: 1.5;
+  color: #616566;
+}
+
+.contagio {
+  width: 80%;
+  margin: auto;
+}
+
+.div-contagion {
+  margin-left: 20em;
+  margin-top: 10em;
+  width: 50%;
+  text-align: center;
+  /* background: red; */
+}
+
+.paragrafo-contagio {
+  line-height: 2;
+  width: 40%;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 23em;
+  color: #616566;
 }
 
 nav {
@@ -36,15 +62,12 @@ nav {
   display: inline;
   font-size: 10px;
   border: 1px solid transparent;
-  
 }
 
 .ul-nav a {
   text-decoration: none;
-  color: #035755;  
+  color: #035755;
   font-size: 11px;
-  /* letter-spacing: 3px; */
-  
 }
 
 nav ul {
@@ -59,6 +82,9 @@ nav ul {
 
 .cuidados-title {
   width: 50%;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
 }
 
 .cuidados-h2 {
@@ -78,7 +104,7 @@ nav ul {
 }
 
 .button-tranparent {
-    font-size: 12px;
+  font-size: 12px;
   width: 120px;
   height: 35px;
   color: #fb4c47;
@@ -116,16 +142,12 @@ nav ul {
   background: #fee6e5;
 }
 
-h1 {
-  color: #fa605c;
-  margin-top: 5em;
-}
-
 .div-paragrafo {
   width: 93%;
   line-height: 2;
   letter-spacing: 1.5;
   font-size: 15px;
+  color: #616566;
 }
 
 .coronavirus {
@@ -135,8 +157,11 @@ h1 {
 }
 
 p {
-  /* width: 60%;  */
   text-align: left;
+}
+
+.title2 {
+  margin-top: 10em;
 }
 
 h2 {
@@ -150,11 +175,8 @@ h2 {
 
 .card-1 {
   width: 700px;
-  /* z-index: 2; */
   margin-top: 2em;
   position: absolute;
-  /* padding: 10px; */
-  /* float: left; */
   height: 30em;
   right: 0;
 }
@@ -171,8 +193,21 @@ h2 {
   height: 30em;
 }
 
+.imagem1{
+    height: 500px;
+}
+
+.imagem2{
+    height: 480px;
+}
+
+.imagem3{
+    height: 500px;
+}
+
 .imagem {
-  width: 30%;
+  width: 35%;
+  
 }
 
 .imagem-1 {
