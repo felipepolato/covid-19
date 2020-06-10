@@ -47,17 +47,8 @@ nav ul {
   letter-spacing: 1px;
 }
 
-.coronavirus{
-   
-    width: 70%;
-    text-align: left;
-    margin-left: 22em;
-    
-}
 
-.container{
-  
-}
+
 
 .cuidados {
   text-align: center;
@@ -122,10 +113,19 @@ h1 {
   margin-top: 5em;
 }
 
+.paragrafo{
+    margin-top: 3em;
+}
 .div-paragrafo {
-  line-height: 1.5;
-  letter-spacing: 1.5;
-  height: 12em;
+    width: 93%;  
+    line-height: 2;
+    letter-spacing: 1.5;  
+}
+
+.coronavirus{   
+    width: 70%;
+    text-align: left;
+    margin-left: 22em;    
 }
 
 p {
@@ -157,7 +157,8 @@ h2 {
 
 .card-2 {
   float: left;
-  width: 30%;
+  width: 50%;
+  
 }
 
 .card-3 {
