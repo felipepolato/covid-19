@@ -1,3 +1,7 @@
+* {
+    /* outline: red solid */
+}
+
 html {
   font-family: "Roboto", sans-serif;
 }
@@ -11,6 +15,7 @@ body {
   flex-direction: column;
   align-items: left;
   width: 42%;
+  
 }
 
 .paragrafo-top {
