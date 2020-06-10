@@ -1,25 +1,26 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  
   margin-left: 150px;
 }
-
-
 
 .div-header {
   display: flex;
   flex-direction: column;
   align-items: left;
   width: 42%;
- 
 }
 
+.paragrafo-top {
+  line-height: 2;
+  letter-spacing: 1.5;
+  
+}
 
 nav {
-    margin-top: 20px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +31,6 @@ nav {
   display: inline;
   font-size: 10px;
   border: 1px solid transparent;
-  
 }
 
 .ul-nav a {
@@ -41,14 +41,10 @@ nav {
 }
 
 nav ul {
-    
   margin-right: 11em;
   text-align: right;
   letter-spacing: 1px;
 }
-
-
-
 
 .cuidados {
   text-align: center;
@@ -85,14 +81,13 @@ nav ul {
 }
 
 .button-red {
-  width: 200px;
+  width: 150px;
   height: 50px;
-  padding: 0.9em 2.5em;
-  background: #fa605c;
-  border-radius: 10px;
-  color: white;
-  text-decoration: none;
+  border: transparent;
+  border-radius: 25px;
   margin-top: 20px;
+  color: white;
+  background: #fb4c47;
 }
 
 .button-red:hover {
@@ -102,10 +97,11 @@ nav ul {
 .button-rosa {
   width: 150px;
   height: 50px;
-  border: #fa605c solid;
-  border-radius: 10px;
+  border: transparent;
+  border-radius: 25px;
   margin-top: 20px;
   color: #fa605c;
+  background: #fee6e5;
 }
 
 h1 {
@@ -113,19 +109,17 @@ h1 {
   margin-top: 5em;
 }
 
-.paragrafo{
-    margin-top: 3em;
-}
 .div-paragrafo {
-    width: 93%;  
-    line-height: 2;
-    letter-spacing: 1.5;  
+  width: 93%;
+  line-height: 2;
+  letter-spacing: 1.5;
+  font-size: 15px;
 }
 
-.coronavirus{   
-    width: 70%;
-    text-align: left;
-    margin-left: 22em;    
+.coronavirus {
+  width: 70%;
+  text-align: left;
+  margin-left: 22em;
 }
 
 p {
@@ -143,22 +137,19 @@ h2 {
 }
 
 .card-1 {
-    width: 700px;
-    /* z-index: 2; */
+  width: 700px;
+  /* z-index: 2; */
   margin-top: 2em;
- position: absolute;
+  position: absolute;
   /* padding: 10px; */
   /* float: left; */
   height: 30em;
   right: 0;
- 
-  
 }
 
 .card-2 {
   float: left;
   width: 50%;
-  
 }
 
 .card-3 {
