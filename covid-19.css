@@ -16,7 +16,6 @@ body {
 .paragrafo-top {
   line-height: 2;
   letter-spacing: 1.5;
-  
 }
 
 nav {
@@ -71,13 +70,17 @@ nav ul {
 }
 
 .button-tranparent {
-  width: 100px;
-  height: 30px;
-  border: #fa605c solid;
-  border-radius: 10px;
-  color: #fa605c;
+  width: 130px;
+  height: 45px;
+  color: #fb4c47;
   background: transparent;
+  border: #fb4c47 solid;
+  border-radius: 25px;
   font-weight: bold;
+}
+
+.button-rosa:hover {
+  background: #fac6c4;
 }
 
 .button-red {
