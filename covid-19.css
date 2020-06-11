@@ -117,7 +117,6 @@ nav ul {
   letter-spacing: 1.5;
   font-size: 15px;
   color: #616566;
-  background: red;
 }
 
 .coronavirus {
@@ -205,21 +204,41 @@ nav ul {
   text-align: center;
 }
 
-.paragrafo-cuidados {
-  width: 70%;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  line-height: 1.5;
+.paragrafo-cuidados-title {
+  text-align: center;
+  font-size: 15px;
+  width: 50%;
+  margin-left: 10em;
+  letter-spacing: 0.5px;
   line-height: 2;
-  background: green;
+}
+
+.paragrafo-cuidados {
+  font-size: 13px;  
+  line-height: 2.5;
+  
+}
+
+.p1, .p3{
+  
+  width: 35%;
+  text-align: left;
+}
+
+.p2, .p4{
+  width: 60%;
+  text-align: left;
 }
 
 .cuidados-h2 {
   text-align: center;
-  margin-bottom: 5em;
+  margin-top: 3em;
 }
 
-.div-cuidados-direita-1 {
+.txt4 {
+  margin-top: 10em;
+  margin-right: 15em;
+  text-align: center;
 }
 
 .div-cuidados-esquerda {
@@ -234,11 +253,12 @@ nav ul {
   width: 32%;
 }
 
-.esquerda {
+.direita {
   float: left;
+
 }
 
-.direita {
+.esquerda {
   float: right;
   margin-right: 9em;
 }
