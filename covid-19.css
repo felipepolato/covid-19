@@ -226,7 +226,8 @@ nav ul {
 }
 
 .p2, .p4{
-  width: 60%;
+  margin-right: 15em;  
+  margin-left: 45em;
   text-align: left;
 }
 
