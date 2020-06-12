@@ -1,5 +1,5 @@
 * {
-  /* outline: black solid */
+  /* outline: black solid; */
 }
 
 html {
@@ -13,18 +13,16 @@ body {
 h1 {
   color: #fb4c47;
   font-size: 25px;
-  
 }
 
 h2 {
   color: #035755;
   font-size: 35px;
- 
 }
 
-p {
+/* p {
   text-align: left;
-}
+} */
 
 /* HEADER */
 
@@ -106,31 +104,35 @@ nav ul {
 /* TEXTO 1 */
 
 .section-corona {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .card-2 {
-  float: left;
-  width: 50%; 
+  width: 50%;
+  margin-top: 5em;
+
+}
+
+.div-flex {
+  display: flex;
+  align-content: center;
 }
 
 .div-paragrafo {
-  width: 93%;
   line-height: 2;
   letter-spacing: 1.5;
   font-size: 15px;
   color: #616566;
-  margin-bottom: 20em;
+  margin-bottom: 5em;
 }
 
-.paragrafo{
-  margin-top: 5em;
+.paragrafo {
+  /* margin-top: 5em; */
 }
 
 .coronavirus {
-  width: 70%;
   text-align: left;
-  margin-left: 22em;
+  line-height: 30px;
 }
 
 .title2 {
@@ -159,11 +161,10 @@ nav ul {
 }
 
 .div-contagion {
-  text-align: center;  
+  text-align: center;
 }
 
-.contagio-imagens{
-
+.contagio-imagens {
   margin-bottom: 5em;
   text-align: center;
   font-size: 14px;
@@ -183,21 +184,21 @@ nav ul {
 }
 
 .div-contagio-imagem {
-  box-shadow: 0px 0px 106px -60px rgba(0,0,0,0.58);
+  box-shadow: 0px 0px 106px -60px rgba(0, 0, 0, 0.58);
   height: 450px;
   width: 35%;
   margin-left: 15px;
   border-radius: 5px;
 }
 
-.vermelho{
+.vermelho {
   border-bottom: #fa605c 5px solid;
 }
 
-.cinza{
+.cinza {
   border-right: #bebebe7e 1.5px solid;
   border-left: #bebebeb7 1.4px solid;
-  border-bottom: #bebebecc  solid;
+  border-bottom: #bebebecc solid;
 }
 
 .contagion-imagens-paragrafo {
@@ -224,10 +225,9 @@ nav ul {
   justify-content: center;
 }
 
-
 /* TEXTO 3 */
 
-.symptoms{
+.symptoms {
   margin-top: 5em;
 }
 
@@ -257,11 +257,14 @@ nav ul {
   text-align: center;
 }
 
+.txt4 {
+  width: 53%;
+  margin: auto;
+}
+
 .paragrafo-cuidados-title {
   text-align: center;
   font-size: 15px;
-  width: 50%;
-  margin-left: 17em;
   letter-spacing: 0.5px;
   line-height: 2;
 }
@@ -280,15 +283,22 @@ nav ul {
 
 .p2,
 .p4 {
-  margin-top: 5em;
+ 
   margin-right: 15em;
   margin-left: 45em;
   text-align: left;
 }
 
 .cuidados-h2 {
-  text-align: center;
+  text-align: left;
   margin-top: 3em;
+}
+
+.cuidados-h2-direita{
+  text-align: left;
+  margin-left: 17em;
+  margin-top: 7em;
+  
 }
 
 .txt4 {
@@ -299,6 +309,7 @@ nav ul {
 
 .div-cuidados-esquerda {
   margin-top: 15em;
+  
 }
 
 .div-cuidados-direita {
