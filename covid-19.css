@@ -154,9 +154,9 @@ nav ul {
   margin-left: 20em;
   margin-top: 10em;
   width: 50%;
-  text-align: center;
-  /* background: red; */
+  text-align: center;  
 }
+
 
 .paragrafo-contagio {
   line-height: 2;
@@ -167,8 +167,27 @@ nav ul {
   color: #616566;
 }
 
+.div-contagio-imagem{
+  box-shadow: -10px -8px 106px -41px rgba(0,0,0,0.58);
+  width: 30%;
+  height: 20%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.contagion-imagens{
+  text-align: center;
+  
+}
+
 .imagem {
-  width: 35%;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+ 
+  
+  /* background: red; */
 }
 
 .imagem-1 {
@@ -177,30 +196,32 @@ nav ul {
   justify-content: center;
 }
 
-.imagem1 {
-  height: 500px;
-}
-
-.imagem2 {
-  height: 480px;
-}
-
-.imagem3 {
-  height: 500px;
-}
-
 /* TEXTO 3 */
 
 .card-3 {
-  width: 98%;
-  padding: 10px;
+  width: 100%;  
   display: inline-block;
-  height: 30em;
+  height: 40em;
 }
+
+.sintomas-h2{
+  text-align: center;  
+  line-height: 30px;
+}
+
+.paragrafo-sintomas-title{
+    text-align: center;
+    font-size: 14px;
+    width: 50%;
+    margin-left: 20em;
+    letter-spacing: .5px;
+    line-height: 2;
+  }
+
 
 /* TEXTO 4 */
 
-.cuidados {
+.cuidados {  
   text-align: center;
 }
 
@@ -208,8 +229,8 @@ nav ul {
   text-align: center;
   font-size: 15px;
   width: 50%;
-  margin-left: 10em;
-  letter-spacing: 0.5px;
+  margin-left: 17em;
+  letter-spacing: .5px;
   line-height: 2;
 }
 
@@ -291,7 +312,9 @@ nav ul {
 
 .copy {
   text-align: center;
+  margin-right: 10em;
   padding: 20px;
+  color: #71857f;
 }
 
 .ul-footer,
