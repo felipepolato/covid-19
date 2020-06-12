@@ -12,11 +12,14 @@ body {
 
 h1 {
   color: #fb4c47;
+  font-size: 25px;
+  
 }
 
 h2 {
   color: #035755;
-  font-size: 32px;
+  font-size: 35px;
+ 
 }
 
 p {
@@ -108,7 +111,7 @@ nav ul {
 
 .card-2 {
   float: left;
-  width: 50%;
+  width: 50%; 
 }
 
 .div-paragrafo {
@@ -117,6 +120,11 @@ nav ul {
   letter-spacing: 1.5;
   font-size: 15px;
   color: #616566;
+  margin-bottom: 20em;
+}
+
+.paragrafo{
+  margin-top: 5em;
 }
 
 .coronavirus {
@@ -151,12 +159,19 @@ nav ul {
 }
 
 .div-contagion {
-  margin-left: 20em;
-  margin-top: 10em;
-  width: 50%;
   text-align: center;  
 }
 
+.contagio-imagens{
+
+  margin-bottom: 5em;
+  text-align: center;
+  font-size: 14px;
+  width: 50%;
+  margin-left: 20em;
+  letter-spacing: 1.5px;
+  line-height: 2.5;
+}
 
 .paragrafo-contagio {
   line-height: 2;
@@ -167,61 +182,78 @@ nav ul {
   color: #616566;
 }
 
-.div-contagio-imagem{
-  box-shadow: -10px -8px 106px -41px rgba(0,0,0,0.58);
-  width: 30%;
-  height: 20%;
-  margin: 10px;
+.div-contagio-imagem {
+  box-shadow: 0px 0px 106px -60px rgba(0,0,0,0.58);
+  height: 450px;
+  width: 35%;
+  margin-left: 15px;
   border-radius: 5px;
 }
 
+.vermelho{
+  border-bottom: #fa605c 5px solid;
+}
 
-.contagion-imagens{
+.cinza{
+  border-right: #bebebe7e 1.5px solid;
+  border-left: #bebebeb7 1.4px solid;
+  border-bottom: #bebebecc  solid;
+}
+
+.contagion-imagens-paragrafo {
+  font-size: 13px;
   text-align: center;
-  
+  line-height: 2.5;
+}
+
+.contagion-imagens {
+  text-align: center;
+  font-size: 25px;
 }
 
 .imagem {
-  width: 50%;
+  width: 55%;
   padding: 20px;
-  margin: auto;
- 
-  
-  /* background: red; */
+  margin-left: 4em;
 }
 
 .imagem-1 {
-  width: 90%;
+  height: 30em;
+  width: 98%;
   display: flex;
   justify-content: center;
 }
 
+
 /* TEXTO 3 */
 
+.symptoms{
+  margin-top: 5em;
+}
+
 .card-3 {
-  width: 100%;  
+  width: 100%;
   display: inline-block;
   height: 40em;
 }
 
-.sintomas-h2{
-  text-align: center;  
+.sintomas-h2 {
+  text-align: center;
   line-height: 30px;
 }
 
-.paragrafo-sintomas-title{
-    text-align: center;
-    font-size: 14px;
-    width: 50%;
-    margin-left: 20em;
-    letter-spacing: .5px;
-    line-height: 2;
-  }
-
+.paragrafo-sintomas-title {
+  text-align: center;
+  font-size: 14px;
+  width: 50%;
+  margin-left: 20em;
+  letter-spacing: 0.5px;
+  line-height: 2;
+}
 
 /* TEXTO 4 */
 
-.cuidados {  
+.cuidados {
   text-align: center;
 }
 
@@ -230,7 +262,7 @@ nav ul {
   font-size: 15px;
   width: 50%;
   margin-left: 17em;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   line-height: 2;
 }
 
