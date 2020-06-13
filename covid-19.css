@@ -169,6 +169,11 @@ nav ul {
 
 /* TEXTO 2 */
 
+.meio-corona-pink{
+  margin-top: 12em;
+  height: 250px;
+}
+
 .contagio {
   width: 80%;
   margin: auto;
@@ -234,12 +239,19 @@ nav ul {
 
 .imagem-1 {
   height: 30em;
-  width: 98%;
+  width: 90%;
   display: flex;
   justify-content: center;
 }
 
 /* TEXTO 3 */
+
+
+.petala-direito{
+  width: 10%;
+  margin-right: 2em;
+  float: right;
+}
 
 .symptoms {
   margin-top: 5em;
@@ -266,6 +278,10 @@ nav ul {
 }
 
 /* TEXTO 4 */
+
+.corona-verde{
+  width: 8%;
+}
 
 .cuidados {
   text-align: center;
