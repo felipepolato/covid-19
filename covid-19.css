@@ -20,11 +20,17 @@ h2 {
   font-size: 35px;
 }
 
-/* p {
-  text-align: left;
-} */
+
 
 /* HEADER */
+
+.gradiente {
+
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) -27.95%,
+    #fdf0f0 47.36%,#fff0f0 47.36%);  
+}
 
 .div-header {
   display: flex;
@@ -103,14 +109,24 @@ nav ul {
 
 /* TEXTO 1 */
 
-.section-corona {
-  /* width: 100%; */
+.corona-pequeno{
+  width: 15%;
+  margin-left: 30em;
+  margin-right: 3em;
+ 
+  
 }
 
-.card-2 {
-  width: 50%;
-  margin-top: 5em;
+.meio-corona{
+  
+  width: 16%;
+  margin-left: 33.5em;
+}
 
+
+.card-2 {
+  width: 54%;
+  margin-top: 5em;
 }
 
 .div-flex {
@@ -118,16 +134,15 @@ nav ul {
   align-content: center;
 }
 
+
+
 .div-paragrafo {
+  width: 39%;
   line-height: 2;
   letter-spacing: 1.5;
-  font-size: 15px;
+  font-size: 14px;
   color: #616566;
-  margin-bottom: 5em;
-}
-
-.paragrafo {
-  /* margin-top: 5em; */
+  
 }
 
 .coronavirus {
@@ -144,7 +159,6 @@ nav ul {
   height: 50px;
   border: transparent;
   border-radius: 25px;
-  margin-top: 20px;
   color: #fa605c;
   background: #fee6e5;
 }
@@ -283,7 +297,6 @@ nav ul {
 
 .p2,
 .p4 {
- 
   margin-right: 15em;
   margin-left: 45em;
   text-align: left;
@@ -294,11 +307,10 @@ nav ul {
   margin-top: 3em;
 }
 
-.cuidados-h2-direita{
+.cuidados-h2-direita {
   text-align: left;
   margin-left: 17em;
   margin-top: 7em;
-  
 }
 
 .txt4 {
@@ -309,7 +321,6 @@ nav ul {
 
 .div-cuidados-esquerda {
   margin-top: 15em;
-  
 }
 
 .div-cuidados-direita {
